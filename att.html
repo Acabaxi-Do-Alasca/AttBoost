@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Atividade - Projeto Bootstrap </title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+        .amarelo{
+            background-color: #FFD704;
+        }
+        .vinho{
+            background-color: darkred;
+        }
+        .vermelho{
+            background-color: #FF0000;
+        }
+        .cinza{
+            background-color: #F4F4F8;
+        }
+        .amareloC{
+            background-color: lightyellow;
+        }
+        .cinzaE{
+            background-color: #D9D9D9;
+        }
+        .verde{
+            background-color: #00FF1A;
+        }
+        .branco{
+            background-color: #FFFFFF;
+        }
+
+        .margin-direita-branco{
+            border-right: 0.39vw solid #FFFFFF;
+        }
+        .margin-direita-amarelo{
+            border-right: 0.65vw solid #FFD704;
+        }
+        .margin-direita-vermelho{
+            border-right: 0.84vw solid #FF0000;
+        }
+        .margin-direita-vermelho2{
+            border-right: 0.39vw solid #FF0000;
+        }
+        .noBorder{
+            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        #cabeca1{
+            height: 8.43vh;
+        }
+        #cabeca2{
+            height: 52.07vh;
+        }
+        #cabeca3{
+            height: 39.08vh;
+        }
+        .cabecaV{
+            margin:6.69vh -0.1px;
+            border: 0.39vw solid #FFD704;
+        }
+        
+        .corpoV{
+            height: 25.83vh;
+            margin:6.69vh -0.1px;
+            border: 0.39vw solid #FFFFFF;
+        }
+        .corpoV2{
+            height: 70.14vh;
+            margin:10.70vh -0.1px;
+        }
+        .corpoVD{
+            height: 50vh;
+            margin: 5.48vh 0;
+        }
+        .corpo-cinzaE{
+            height: 27vh;
+            margin-top: 5.48vh;
+            border-bottom: 0.8vh solid #FF0000
+        }
+        .corpo-cinzaE2{
+            height: 23vh;
+            margin-bottom: 5.48vh;
+        }
+        
+
+        .rodapeB{
+            height: 9.63vh;
+            margin:2.81vh -0.1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row noBorder">
+            <div id="cabeca1" class="col-12 amarelo"></div>
+            <div id="cabeca2" class="col-12 vinho"></div>
+            <div id="cabeca3" class="row amarelo noBorder">
+                <div class="col-6 vermelho cabecaV"></div>
+                <div class="col-6 vermelho cabecaV"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="row noBorder cinza">
+            <div class="col-4 vermelho corpoV"></div>
+            <div class="col-5 vermelho corpoV"></div>
+            <div class="col-3 vermelho corpoV"></div>
+        </div>
+        <div class="row noBorder amareloC">
+            <div class="col-4 vermelho corpoV"></div>
+            <div class="col-5 vermelho corpoV"></div>
+            <div class="col-3 vermelho corpoV"></div>
+        </div>
+        <div class="row noBorder cinza">
+            <div class="col-4 vermelho corpoV"></div>
+            <div class="col-5 vermelho corpoV"></div>
+            <div class="col-3 vermelho corpoV"></div>
+        </div>
+        <div class="row noBorder branco">
+            <div class="col-5 vermelho corpoV2 margin-direita-branco"></div>
+            <div class="col-7 vermelho corpoV2"></div>
+        </div>
+        <div class="row noBorder vermelho">
+            <div class="col-5 verde corpoVD margin-direita-vermelho"></div>
+            <div class="col-7 noBorder">
+                <div class="row noBorder">
+                    <div class="col-6 cinzaE corpo-cinzaE margin-direita-vermelho"></div>
+                    <div class="col-6 cinzaE corpo-cinzaE"></div>
+                    <div class="col-4 cinzaE corpo-cinzaE2 margin-direita-vermelho2"></div>
+                    <div class="col-4 cinzaE corpo-cinzaE2 margin-direita-vermelho2"></div>
+                    <div class="col-4 cinzaE corpo-cinzaE2"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row noBorder amarelo">
+            <div class="col-5 branco rodapeB margin-direita-amarelo"></div>
+            <div class="col-7 branco rodapeB"></div>
+        </div>
+    </footer>
+</body>
+</html>
